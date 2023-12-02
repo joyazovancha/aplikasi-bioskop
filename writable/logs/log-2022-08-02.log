@@ -1,0 +1,63 @@
+CRITICAL - 2022-08-02 00:58:43 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: \App\Controllers\Admin/Dashboard::index
+in SYSTEMPATH\Router\Router.php on line 466.
+ 1 SYSTEMPATH\Router\Router.php(466): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Admin/Dashboard::index')
+ 2 SYSTEMPATH\Router\Router.php(181): CodeIgniter\Router\Router->checkRoutes('admin/dashboard')
+ 3 SYSTEMPATH\CodeIgniter.php(771): CodeIgniter\Router\Router->handle('admin/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-02 00:58:57 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: \App\Controllers\Admin/Dashboard::index
+in SYSTEMPATH\Router\Router.php on line 466.
+ 1 SYSTEMPATH\Router\Router.php(466): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Admin/Dashboard::index')
+ 2 SYSTEMPATH\Router\Router.php(181): CodeIgniter\Router\Router->checkRoutes('admin/dashboard')
+ 3 SYSTEMPATH\CodeIgniter.php(771): CodeIgniter\Router\Router->handle('admin/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-02 00:59:24 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: \App\Controllers\Admin/Dashboard
+in SYSTEMPATH\Router\Router.php on line 466.
+ 1 SYSTEMPATH\Router\Router.php(466): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Admin/Dashboard')
+ 2 SYSTEMPATH\Router\Router.php(181): CodeIgniter\Router\Router->checkRoutes('admin/dashboard')
+ 3 SYSTEMPATH\CodeIgniter.php(771): CodeIgniter\Router\Router->handle('admin/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-02 00:59:42 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: \App\Controllers\Admin/Dashboard
+in SYSTEMPATH\Router\Router.php on line 466.
+ 1 SYSTEMPATH\Router\Router.php(466): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Admin/Dashboard')
+ 2 SYSTEMPATH\Router\Router.php(181): CodeIgniter\Router\Router->checkRoutes('admin/dashboard')
+ 3 SYSTEMPATH\CodeIgniter.php(771): CodeIgniter\Router\Router->handle('admin/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-02 01:00:35 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: \App\Controllers\admin/dashboard::index
+in SYSTEMPATH\Router\Router.php on line 466.
+ 1 SYSTEMPATH\Router\Router.php(466): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\admin/dashboard::index')
+ 2 SYSTEMPATH\Router\Router.php(181): CodeIgniter\Router\Router->checkRoutes('admin/dashboard')
+ 3 SYSTEMPATH\CodeIgniter.php(771): CodeIgniter\Router\Router->handle('admin/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-02 01:03:33 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: \App\Controllers\/admin/dashboard::index
+in SYSTEMPATH\Router\Router.php on line 466.
+ 1 SYSTEMPATH\Router\Router.php(466): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\/admin/dashboard::index')
+ 2 SYSTEMPATH\Router\Router.php(181): CodeIgniter\Router\Router->checkRoutes('admin/dashboard')
+ 3 SYSTEMPATH\CodeIgniter.php(771): CodeIgniter\Router\Router->handle('admin/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-02 01:07:35 --> login filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 493.
+ 1 SYSTEMPATH\Filters\Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('login')
+ 2 SYSTEMPATH\Filters\Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+ 3 SYSTEMPATH\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('admin/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(440): CodeIgniter\Filters\Filters->run('admin/dashboard', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
